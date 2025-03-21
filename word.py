@@ -287,9 +287,9 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 # ls2 = [x for x in ls1 if x %2 == 0]
 # print(ls2)
 
-ls1 = ["Lahore","Jaranwala","Faisalabad","Jaranwala"]
-ls2 = [x if x!= "Jaranwala" else "144GB" for x in ls1 ]
-print(ls2)
+# ls1 = ["Lahore","Jaranwala","Faisalabad","Jaranwala"]
+# ls2 = [x if x!= "Jaranwala" else "144GB" for x in ls1 ]
+# print(ls2)
 
 
 
