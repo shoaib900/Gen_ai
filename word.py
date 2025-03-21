@@ -292,6 +292,47 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 # print(ls2)
 
 
+# 17  for loop while loop
+
+# ls = [ "Karachi", "Jaranwala", "Faisalabad"]
+
+# for x in range(len(ls)):
+#     print(ls[x], x +1)
+
+# i = 0
+# while i < len(ls):
+#     print(ls[i])
+#     i= i + 1
+
+# 18 range 
+
+# for x in range(2,21,2):
+#     print(x)
+
+# 19 list comprensions 
+
+# ls = [x for x in range(2,10,2)]
+# print(ls)
+
+# ls = ["Karachi","Jaranwala","Faisalabad","kivi","test"]
+# [print(x) for x in ls if "i" in x ]
+
+# for x in ls:
+#     if "a" in x:
+#         ls2.append(x)
+
+# ls = ["karachi","jaranwala","faisalabad","kivi","test"]
+
+# ls2 = [x for x in ls if x != "Karachi"]
+# ls2 = [x.capitalize() for x in ls ]
+# ls2 = [x[0].upper()+x[1:-1].lower()+x[-1:].upper() for x in ls]
+# ls2 = [x[0].upper() for x in ls if "F" in x]
+# print(ls2)
+
+
+
+
+
 
 
 
