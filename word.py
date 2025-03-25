@@ -377,9 +377,9 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 # tup3 = tup1 + tup2
 # print(tup3)
 
-tup1 = ("faisalabad","Jaranwala","Lahore")
-tup2 = (1,2,3,4,5,6,7)
-tup3 = tup2 + tup1
+# tup1 = ("faisalabad","Jaranwala","Lahore")
+# tup2 = (1,2,3,4,5,6,7)
+# tup3 = tup2 + tup1
 
 # print(tup3[7:] + tup3[:7])
 # ls = list(tup3)
@@ -389,6 +389,45 @@ tup3 = tup2 + tup1
 # tup4 = tuple(ls2)
 # print(tup4)
 # print(ls)
+
+# tup = ("semester","annual","master","M phil","P hd")
+# (tup1,tup2,*tup3) = tup
+# print(tup2)
+
+# 21 sets
+
+# st = {"hello","world","!"}
+# st = set((False,True,"hello","world","!",0,1,"yes","no"))
+# st2 = set(("philospher","hell menu"))
+
+# st.add("philospher")
+# st.update(st2)
+# st.pop()
+
+# print(type(st))
+
+# st = {"hello","world","!",'hello world'}
+# st.discard("hello")
+# st.discard("hello")
+# st.clear()
+# del st[0]
+
+
+
+st1 = {"hello","world","!"}
+st2 = {"menu","food","world"}
+
+# st3 = st1 | st2
+# st3 = st1.union(st2)
+
+# st3 = st1.intersection(st2)
+# st3 = st1 & st2
+
+# st3 = st1.difference(st2)
+# st3 = st1 - st2
+# print(st3)
+
+
 
 
 
