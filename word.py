@@ -394,7 +394,7 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 # (tup1,tup2,*tup3) = tup
 # print(tup2)
 
-# 21 sets
+# 21 sets   ---------------------------------------
 
 # st = {"hello","world","!"}
 # st = set((False,True,"hello","world","!",0,1,"yes","no"))
@@ -414,8 +414,8 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 
 
 
-st1 = {"hello","world","!"}
-st2 = {"menu","food","world"}
+# st1 = {"hello","world","!"}
+# st2 = {"menu","food","world"}
 
 # st3 = st1 | st2
 # st3 = st1.union(st2)
@@ -426,6 +426,43 @@ st2 = {"menu","food","world"}
 # st3 = st1.difference(st2)
 # st3 = st1 - st2
 # print(st3)
+
+
+# 22 dictionaries --------------------------------
+
+# dic = {"name":"shumaela","age":20}
+# print(dict)
+
+# dic["color"] = "green"
+
+# dic.update({"mark":"zeenato"})
+# print(dic)
+
+
+# if "name" in dic:
+#     print("name is in the dictionary item")
+    
+# print(dic.items())
+
+# print(dic.keys())
+# print(dic.values())
+
+# dic["name"] = "anmol"
+# print(dic["name"])
+# print(dic.get("name"))
+
+dic = {"name":"anmol","age":30}
+# dic2 = dic
+# dic["age"] = 20
+# print(dic2,dic)
+
+# for i in dic:
+#     print(f"{i}")
+
+dic2 = dict(dic)
+
+dic["name"] = "amina"
+print(dic2,dic)
 
 
 
