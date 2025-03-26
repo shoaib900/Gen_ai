@@ -430,39 +430,50 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 
 # 22 dictionaries --------------------------------
 
-# dic = {"name":"shumaela","age":20}
-# print(dict)
-
-# dic["color"] = "green"
-
-# dic.update({"mark":"zeenato"})
-# print(dic)
+# dic = {"name":"amna"}  
+# dic = dict({"name":"amna","age": 20})
 
 
-# if "name" in dic:
-#     print("name is in the dictionary item")
-    
-# print(dic.items())
-
-# print(dic.keys())
-# print(dic.values())
-
-# dic["name"] = "anmol"
+# print(type(dic),dic, len(dic))
 # print(dic["name"])
 # print(dic.get("name"))
+# dic["color"] = "fade"
+# dic.update({"color":"white","alpha":"1.09"})
+# dic.pop("color")
+# dic.popitem()
+# print(dic.keys())
+# print(dic.values())
+# print(dic.items())
+# del dic["name"]
+# dic.clear()
+# del dic 
+# print(dic) 
 
-dic = {"name":"anmol","age":30}
-# dic2 = dic
-# dic["age"] = 20
-# print(dic2,dic)
+# 23 pass by reference / pass by value ----------------------
 
-# for i in dic:
-#     print(f"{i}")
+# a = 10
+# b = a
+# a = 20
+# print(a,b)
 
-dic2 = dict(dic)
+# dic1 = {"name":"amna","age":20}
+# dic2 = dic1
 
-dic["name"] = "amina"
-print(dic2,dic)
+# dic1["name"] = "adil"
+
+# print(dic1,dic2) 
+
+# 24 copy dictionary --------------------------------
+
+# dic1 = {"name":"adil","age":24}
+
+# dic2 = dic1.copy()
+# dic2 = {"name":"adil","age":24}
+# dic2 = dict(dic1)
+# dic1["name"] = "amna"
+# print(dic1,dic2)
+
+
 
 
 
