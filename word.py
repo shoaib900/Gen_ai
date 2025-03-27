@@ -530,6 +530,34 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 # x = lambda a,b,c: a* (b /c)
 # print(x(5,2,2))
 
+# assignment 
+
+def fun(c):
+    ls = ["jaranwala","faisalabad","lahore","karachi"]
+
+    if c in ls:
+        print("your city is clean")
+    else:
+        print("your city is not clean")
+
+
+    # alp = False
+    # for city in ls:
+    #     if city == c:
+    #         alp = True
+    # if(alp):
+    #     print("your city is clean")
+    # else:
+    #     print("your city is not clean")
+
+
+c = input("enter your city name : ")      
+fun(c)
+
+
+
+
+
 
 
 
