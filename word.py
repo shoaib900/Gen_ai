@@ -473,6 +473,70 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 # dic1["name"] = "amna"
 # print(dic1,dic2)
 
+# 25 functions --------------------------------
+# kivi android apps
+# tkinter 
+
+# def s():
+#     print("hello world")
+
+# s()
+
+# def func(name = "Akash"):
+#     print("hello world " + name)
+
+# func()
+
+# def func(name):
+#     print("hello world " + name)
+
+# func("akash")
+
+# def func(name , age):
+#     print("hello world " + name + str(age))
+
+# func("akash", 25)
+
+# def func(name = "akash",age=34 ):
+#     print("hello world " + name + str(age) )
+
+# func("ali",34)
+# func()
+
+# def func(name,*age):
+#     print(name + " " +  str(age[1]))
+
+# func("alina", 25,30)
+
+# def fun(**krgs):
+#     print(krgs["name"] + str(krgs["age"]) )
+# fun(name="akash", age = 34)
+
+# def fun():
+#     pass
+# fun()
+
+# 26 exception handling 
+
+# x = 23
+# try:
+#     print(y)
+# except:
+#     print("Error: variable y is not defined")
+# finally:
+#     print("This is always executed")
+
+# 27 anonymous function 
+# x = lambda a,b,c: a* (b /c)
+# print(x(5,2,2))
+
+
+
+
+
+
+
+
 
 
 
